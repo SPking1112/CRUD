@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Style+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Universal selector */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* World Element */
+:root{
+    --color-1:black;
+    --color-2:white;
+}
+/* Overall Web */
+.web{
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Table */
+.table-container{
+    padding: 10px;
+}
+
+tr,td,th{
+    padding: 10px 20px!important;
+    /* background: var(--color-1)!important; */
+    /* color: var(--color-2)!important; */
+    font-size: 20px!important;
+    text-align: center!important;
+}
+
+td{
+    font-size: 15px!important;
+    border: 2px solid var(--color-1)!important;
+}
+
+th{
+    background: var(--color-1)!important;
+    color: var(--color-2)!important;
+    border: 2px solid var(--color-2)!important;
+    font-family:'Times New Roman', Times, serif!important;
+    font-optical-sizing: auto!important;
+    font-weight: 500!important;
+    font-style: normal!important;
+    font-size: 30px!important;
+}
+
+#btn{
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    background: rgb(150, 35, 35);
+    color: white;
+    border: 2px dotted whitesmoke;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+button{
+    transition: all 1s !important;
+}
+
+button:active{
+    transform: scale(.9)!important;
+}
+
+
